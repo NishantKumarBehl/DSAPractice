@@ -4,7 +4,7 @@ public class BinarySearchRecursive {
 
     static int bsearch(int[] arr,int low,int high, int x){
 
-
+        
        int mid = (low + high)/2;
 
         if (low > high)
@@ -26,3 +26,4 @@ public class BinarySearchRecursive {
         System.out.println((bsearch(arr,low,high,x)));
     }
 }
+   

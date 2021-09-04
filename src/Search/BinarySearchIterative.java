@@ -18,7 +18,7 @@ public class BinarySearchIterative
             else if (arr[mid] < x)
                     low = mid +1;
             else
-                    high =   high -1;
+                    high =   mid -1;
         }
 
         return  -1;

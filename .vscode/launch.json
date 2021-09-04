@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySearchIterative",
+            "request": "launch",
+            "mainClass": "Search.BinarySearchIterative",
+            "projectName": "DSAPractice_4b71d33b"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySearchRecursive",
+            "request": "launch",
+            "mainClass": "Search.BinarySearchRecursive",
+            "projectName": "DSAPractice_4b71d33b"
+        },
+        {
+            "type": "java",
+            "name": "Launch IndexOfFirstOccurence",
+            "request": "launch",
+            "mainClass": "Search.IndexOfFirstOccurence",
+            "projectName": "DSAPractice_4b71d33b"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSort",
+            "request": "launch",
+            "mainClass": "Sort.MergeSort",
+            "projectName": "DSAPractice_4b71d33b"
+        }
+    ]
+}
