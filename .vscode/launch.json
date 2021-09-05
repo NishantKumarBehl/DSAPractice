@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch QuickSort",
+            "request": "launch",
+            "mainClass": "Sort.QuickSort",
+            "projectName": "DSAPractice_4b71d33b"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
